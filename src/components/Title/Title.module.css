@@ -1,0 +1,21 @@
+.wrapper__img {
+  position: relative;
+}
+.title {
+  font-weight: 200;
+  margin: 10px 0 0 0;
+  position: relative;
+  left: -20px;
+}
+
+.img {
+  position: absolute;
+  top: 9px;
+  left: -60px;
+}
+
+.title::before {
+  content: "";
+  display: block;
+  background-image: url("../../image/icon.jpg");
+}
